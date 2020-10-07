@@ -1,13 +1,17 @@
 # UserSystem
 
-Компиляция
+## Установка зависимостей
+
+https://kotlinlang.org/docs/tutorials/command-line.html
+
+## Компиляция
 
 ```bash
-javac UserSystem.java
+kotlinc UserSystem.kt -include-runtime -d UserSystem.jar
 ```
 
-Выполенение
+## Выполенение
 
 ```bash
-java UserSystem -u -s # выводит имя пользователя и систему
+java -jar UserSystem.jar -u -s # выводит имя пользователя и систему
 ```
