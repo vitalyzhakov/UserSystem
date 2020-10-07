@@ -10,7 +10,7 @@ https://kotlinlang.org/docs/tutorials/command-line.html
 kotlinc UserSystem.kt -include-runtime -d UserSystem.jar
 ```
 
-## Выполенение
+## Выполнение
 
 ```bash
 java -jar UserSystem.jar -u -s # выводит имя пользователя и систему
